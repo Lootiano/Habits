@@ -42,6 +42,11 @@ button {
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
+  transition: box-shadow 0.5s ease;
+}
+
+button:hover {
+  box-shadow: inset 300px 0 0 #6c5cf648;
 }
 
 #form-habits {
@@ -110,7 +115,6 @@ input {
 
 input:checked {
   background: #8b5cf6;
-
   border: 2px solid #a78bfa;
 }
 
